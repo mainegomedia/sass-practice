@@ -1,0 +1,14 @@
+header {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    button{
+        background-color: $primaryButton;
+        color: $textColor;
+        &:hover::before {
+            content: "jfkdsafjl";
+            display: inline-block;
+            background-color: $hoverColor;
+        }
+    }
+}

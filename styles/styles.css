@@ -1,0 +1,21 @@
+header {
+  background-color: lightblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header button {
+  background-color: red;
+  color: black;
+}
+
+header button:hover::before {
+  content: "jfkdsafjl";
+  display: inline-block;
+  background-color: purple;
+}
+/*# sourceMappingURL=styles.css.map */
